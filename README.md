@@ -1,9 +1,7 @@
 # React Full Header
-[![Build Status](https://travis-ci.org/rblima0/full-header-react.svg?branch=master)](https://travis-ci.org/rblima0/full-header-react)
+[![Build Status](https://travis-ci.org/rblima0/full-header-react.svg?branch=master)](https://travis-ci.org/rblima0/full-header-react) [![Coverage Status](https://coveralls.io/repos/github/rblima0/full-header-react/badge.svg?branch=master)](https://coveralls.io/github/rblima0/full-header-react?branch=master)
 
-Udemy course: https://www.udemy.com/js-com-tdd-na-pratica
-
-A header component for React.
+A header component with image and video for React.
 
 ## Installation
 
@@ -41,6 +39,10 @@ render() {
 - `font` (string) - font-family to texts
 - `bgImg` (string) - image to background
 - `video` (string) - video to background
+
+## Course
+
+Udemy course: https://www.udemy.com/js-com-tdd-na-pratica
 
 ## Architecture
 
