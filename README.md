@@ -1,4 +1,5 @@
 # React Full Header
+[![Build Status](https://travis-ci.org/rblima0/full-header-react.svg?branch=master)](https://travis-ci.org/rblima0/full-header-react)
 
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica
 
