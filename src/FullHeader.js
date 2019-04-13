@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { headerStyle, containerStyle, titleStyle, subtitleStyle, videoStyle } from './Styles'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { headerStyle, containerStyle, titleStyle, subtitleStyle, videoStyle } from './Styles';
 
 const defaultProps = {
-    bgColor: "#ccc",
-    textColor: "#000",
+    bgColor: '#ccc',
+    textColor: '#000',
     font: 'sans-serif',
-    bgImg: ''
-}
+    bgImg: '',
+};
 
 const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg, video }) => {
     const headerStyleCombined = {
@@ -16,7 +16,7 @@ const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg, video })
         backgroundImage: `url(${bgImg})`,
         color: textColor,
         fontFamily: font,
-    }
+    };
 
     const component = (
         <header style={headerStyleCombined}>
@@ -26,10 +26,10 @@ const FullHeader = ({ title, subtitle, bgColor, textColor, font, bgImg, video })
             </div>
             {video && <video style={videoStyle} autoPlay muted loop src={video} />}
         </header>
-    )
+    );
 
-    return component
-}
+    return component;
+};
 
 FullHeader.propTypes = {
     title: PropTypes.string.isRequired,
@@ -39,8 +39,8 @@ FullHeader.propTypes = {
     font: PropTypes.string.isRequired,
     bgImg: PropTypes.string,
     video: PropTypes.string,
-}
+};
 
-FullHeader.defaultProps = defaultProps
+FullHeader.defaultProps = defaultProps;
 
-export default FullHeader
+export default FullHeader;
